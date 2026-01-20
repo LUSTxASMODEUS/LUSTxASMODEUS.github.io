@@ -1,0 +1,63 @@
+//chara
+
+//marie
+$("#marie .sabun01 a").click(function(){
+	$('#stand_marie').attr("src",("./images/chara/chara1/stand_a.png"));
+	$("#marie .sabun01 img").attr("src",("./images/chara/1_on.png"));
+  $("#marie .sabun02 img").attr("src",("./images/chara/2.png"));
+  $("#marie .sabun03 img").attr("src",("./images/chara/3.png"));
+	return false;
+});
+$("#marie .sabun02 a").click(function(){
+	$('#stand_marie').attr("src",("./images/chara/chara1/stand_b.png"));
+  $("#marie .sabun01 img").attr("src",("./images/chara/1.png"));
+  $("#marie .sabun02 img").attr("src",("./images/chara/2_on.png"));
+  $("#marie .sabun03 img").attr("src",("./images/chara/3.png"));
+  return false;
+});
+  $("#marie .sabun03 a").click(function(){
+	$('#stand_marie').attr("src",("./images/chara/chara1/stand_c.png"));
+  $("#marie .sabun01 img").attr("src",("./images/chara/1.png"));
+  $("#marie .sabun02 img").attr("src",("./images/chara/2.png"));
+  $("#marie .sabun03 img").attr("src",("./images/chara/3_on.png"));
+	return false;
+});
+
+
+//marie
+$("#maria .sabun01 a").click(function(){
+	$('#stand_maria').attr("src",("./images/chara/chara2/stand_a.png"));
+	$("#maria .sabun01 img").attr("src",("./images/chara/1_on.png"));
+  $("#maria .sabun02 img").attr("src",("./images/chara/2.png"));
+  $("#maria .sabun03 img").attr("src",("./images/chara/3.png"));
+	return false;
+});
+$("#maria .sabun02 a").click(function(){
+	$('#stand_maria').attr("src",("./images/chara/chara2/stand_b.png"));
+  $("#maria .sabun01 img").attr("src",("./images/chara/1.png"));
+  $("#maria .sabun02 img").attr("src",("./images/chara/2_on.png"));
+  $("#maria .sabun03 img").attr("src",("./images/chara/3.png"));
+  return false;
+});
+  $("#maria .sabun03 a").click(function(){
+	$('#stand_maria').attr("src",("./images/chara/chara2/stand_c.png"));
+  $("#maria .sabun01 img").attr("src",("./images/chara/1.png"));
+  $("#maria .sabun02 img").attr("src",("./images/chara/2.png"));
+  $("#maria .sabun03 img").attr("src",("./images/chara/3_on.png"));
+	return false;
+});
+
+//marie
+$("#aira .sabun01 a").click(function(){
+	$('#stand_aira').attr("src",("./images/chara/chara3/stand_a.png"));
+	$("#aira .sabun01 img").attr("src",("./images/chara/1_on.png"));
+  $("#aira .sabun02 img").attr("src",("./images/chara/2.png"));
+	return false;
+});
+$("#aira .sabun02 a").click(function(){
+	//$('#aira_stand_bg').css('background-image','url(./images/chara/chara3/stand_b.png)');
+	$('#stand_aira').attr("src",("./images/chara/chara3/stand_b.png"));
+  $("#aira .sabun01 img").attr("src",("./images/chara/1.png"));
+  $("#aira .sabun02 img").attr("src",("./images/chara/2_on.png"));
+  return false;
+});
