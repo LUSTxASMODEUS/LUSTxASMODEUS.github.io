@@ -2,44 +2,103 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我的網站</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin:0; }
-    nav { background:#333; padding:1rem; }
-    nav a { color:#fff; margin:0 10px; text-decoration:none; }
-    header { height:300px; background:#555; color:#fff; display:flex; justify-content:center; align-items:center; }
-    section { padding:2rem; }
-    footer { background:#222; color:#aaa; text-align:center; padding:1rem; }
-  </style>
+  <title>無標題文件</title>
+  <link href="Asmodeus.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <nav>
-    <a href="#home">首頁</a>
-    <a href="#about">關於</a>
-    <a href="#contact">聯絡</a>
-  </nav>
+  <div id="wrapper">
 
-  <header id="home">
-    <h1>歡迎來到我的網站</h1>
-  </header>
+    <!-- 頂部背景 -->
+    <div class="bg" id="top">
+      <img src="img/81593013_p0 (1).png" alt="頂部圖片">
+    </div>
 
-  <section id="about">
-    <h2>關於我</h2>
-    <p>這裡可以放你的介紹文字。</p>
-  </section>
+    <!-- Header + 導覽列 -->
+    <div id="header">
+      <div id="nav">
+        <ul>
+          <li>
+            <a href="#">HETAI</a>
+            <div class="owrap">
+              <ul>
+                <li><a href="#">子選單一</a></li>
+                <li><a href="#">子選單二</a></li>
+                <li><a href="#">子選單三</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">GAME</a>
+            <div class="owrap">
+              <ul>
+                <li><a href="#">子選單一</a></li>
+                <li><a href="#">子選單二</a></li>
+                <li><a href="#">子選單三</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">COMIC</a>
+            <div class="owrap">
+              <ul>
+                <li><a href="#">子選單一</a></li>
+                <li><a href="#">子選單二</a></li>
+                <li><a href="#">子選單三</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">VIDEO</a>
+            <div class="owrap">
+              <ul>
+                <li><a href="#">子選單一</a></li>
+                <li><a href="#">子選單二</a></li>
+                <li><a href="#">子選單三</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">IMAGE</a>
+            <div class="owrap">
+              <ul>
+                <li><a href="#">子選單一</a></li>
+                <li><a href="#">子選單二</a></li>
+                <li><a href="#">子選單三</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-  <section id="contact">
-    <h2>聯絡我</h2>
-    <form>
-      <input type="text" placeholder="姓名"><br><br>
-      <input type="email" placeholder="Email"><br><br>
-      <button type="submit">送出</button>
-    </form>
-  </section>
+    <!-- 回到頂部按鈕 -->
+    <a href="#top" class="pagetop_btn">
+      <img src="img/1.png" height="150" alt="回到頂部">
+    </a>
 
-  <footer>
-    <p>© 2026 我的網站</p>
-  </footer>
+    <!-- 中段背景 -->
+    <div class="bg">
+      <img src="img/_9c5ad83ab71f2e17f38289282cb23bd4ad0f4f1c.jpg" alt="背景圖片">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="newsWrap">
+        <div class="news_left">
+          <span>HENTAI</span>
+          <a data-izimodal-open=".news" class="morebtn">more</a>
+        </div>
+
+        <span class="date">2021.07.05</span>
+
+        <div id="news">
+          <ul>
+            <li>&nabla; <a href="#">新聞項目</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+  </div>
 </body>
 </html>
