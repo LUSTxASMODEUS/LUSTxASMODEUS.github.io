@@ -1,84 +1,35 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
+<!DOCTYPE html> <!-- 告訴瀏覽器這是 HTML5 文件 -->
+<html lang="zh-Hant"> <!-- 網頁語言設定 -->
 <head>
-  <meta charset="UTF-8">
-  <title>響應式圖片範例</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: #333;
-      color: #fff;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav {
-      background: #444;
-      padding: 0.5rem;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-    nav a:hover {
-      color: #ff9900;
-    }
-    main {
-      padding: 2rem;
-      background: #f5f5f5;
-    }
-    footer {
-      background: #222;
-      color: #aaa;
-      text-align: center;
-      padding: 1rem;
-    }
-    .container {
-      width: 100%;       /* 父容器寬度佔視窗 100% */
-      margin: auto;
-    }
-    img {
-      max-width: 100%;  /* 圖片寬度不超過容器 */
-      height: auto;     /* 高度自動依比例縮放 */
-      border: none;   /* 不要邊框 */
-      display: block;
-    }
-  </style>
+  <meta charset="UTF-8"> <!-- 設定編碼，避免亂碼 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 響應式設計 -->
+  <title>我的網站</title> <!-- 網頁標題 -->
 </head>
 <body>
   <!-- 頁首 -->
   <header>
-    <h1>歡迎來到我的網站</h1>
-    <div class="container">
-    <img src="./images/ahegao.png" alt="範例圖片">
+    <h1>網站標題</h1>
   </header>
 
   <!-- 導覽列 -->
   <nav>
-  <ul>
-    <li><a href="#home">首頁</a></li>
-    <li><a href="#about">關於</a></li>
-    <li><a href="#contact">聯絡</a></li>
-  </ul>
-    <a href="#home">首頁</a>
-    <a href="#about">關於</a>
-    <a href="#contact">聯絡</a>
+    <ul>
+      <li><a href="#home">首頁</a></li>
+      <li><a href="#about">關於</a></li>
+      <li><a href="#contact">聯絡</a></li>
+    </ul>
   </nav>
 
-  <!-- 主內容 -->
+  <!-- 主要內容 -->
   <main>
     <section id="home">
       <h2>首頁</h2>
-      <p>這裡是網站的首頁內容。</p>
+      <p>這裡是主要內容。</p>
     </section>
 
     <section id="about">
       <h2>關於我</h2>
-      <p>這裡可以放你的介紹文字。</p>
+      <p>這裡可以放介紹文字。</p>
     </section>
 
     <section id="contact">
