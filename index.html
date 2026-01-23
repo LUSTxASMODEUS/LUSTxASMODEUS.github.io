@@ -1,46 +1,105 @@
-<!DOCTYPE html> <!-- 告訴瀏覽器這是 HTML5 文件 -->
-<html lang="zh-Hant"> <!-- 網頁語言設定 -->
+<!DOCTYPE html>
+<html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8"> <!-- 設定編碼，避免亂碼 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 響應式設計 -->
-  <title>我的網站</title> <!-- 網頁標題 -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NIKKE: Goddess of Victory</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to bottom, #0f0f2f, #1a1a3f);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: rgba(0, 0, 0, 0.6);
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00ffff;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: url('your-character-image.jpg') center/contain no-repeat;
+      background-blend-mode: overlay;
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding-top: 80px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .buttons a {
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #00ffff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .buttons a:hover {
+      background-color: #00cccc;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
-  <!-- 頁首 -->
   <header>
-    <h1>網站標題</h1>
+    <div class="logo">NIKKE</div>
+    <nav>
+      <a href="#">最新消息 NEWS</a>
+      <a href="#">世界觀 WORLD</a>
+      <a href="#">人物誌 CHARACTER</a>
+      <a href="#">遊戲特色 FEATURES</a>
+      <a href="#">影音 GALLERY</a>
+      <a href="#">優惠儲值 MIDASBUY</a>
+      <a href="#">美術館 ART</a>
+    </nav>
   </header>
 
-  <!-- 導覽列 -->
-  <nav>
-    <ul>
-      <li><a href="#home">首頁</a></li>
-      <li><a href="#about">關於</a></li>
-      <li><a href="#contact">聯絡</a></li>
-    </ul>
-  </nav>
+  <section class="hero">
+    <h1>請從背後，看見真實的我</h1>
+    <p>兵器美少女們的末世背身射擊 RPG</p>
+    <div class="buttons">
+      <a href="#">App Store 下載</a>
+      <a href="#">Google Play 立即下載</a>
+      <a href="#">Windows</a>
+    </div>
+  </section>
 
-  <!-- 主要內容 -->
-  <main>
-    <section id="home">
-      <h2>首頁</h2>
-      <p>這裡是主要內容。</p>
-    </section>
-
-    <section id="about">
-      <h2>關於我</h2>
-      <p>這裡可以放介紹文字。</p>
-    </section>
-
-    <section id="contact">
-      <h2>聯絡我</h2>
-      <p>Email: example@mail.com</p>
-    </section>
-  </main>
-
-  <!-- 頁尾 -->
   <footer>
-    <p>© 2026 我的網站</p>
+    全球好評配信中！© 2026 NIKKE: Goddess of Victory
   </footer>
 </body>
 </html>
